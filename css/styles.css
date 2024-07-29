@@ -1,0 +1,269 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #FFD800;
+}
+
+
+/* Navigation Styles */
+nav {
+    background-color: #FF0000;
+    text-align: center;
+    position: sticky;
+    padding: 25px 0;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #FFD800;
+}
+
+header {
+    text-align: center;
+    background-color: #20B2AA;
+    color:#FFA000;
+    padding: 100px 0px;
+}
+
+.name{
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    font-style: italic;
+    color: #008080;
+}
+
+#about {
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #20B2AA;
+    padding: 100px 40px;
+    margin: 20px 0px;
+}
+
+#skills {
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    background-color: #2AE8D1;
+    color: #4D0F47;
+    padding: 100px 40px;
+    border-radius: 10px;
+}
+
+#skills h2 {
+    color: #FF0000;
+
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#skills li {
+    display: inline;
+    font-weight: bold;
+    color: #228B22;
+    margin: 0px 15px;
+}
+
+#projects {
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #20B2AA;
+    padding: 100px 40px;
+    margin: 20px 0px;
+
+}
+
+.project-card {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #ACE1AF;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid #0047AB;
+
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card h3 {
+    color: #DAA520;
+}
+
+.project-card p {
+    color: #DC143C;
+}
+
+.project-card .project-link {
+    color: #BF0000;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+.project-card .project-link:hover {
+    text-decoration: underline;
+}
+
+
+#education {
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #20B2AA;
+    padding: 100px 40px;
+    margin: 20px 0px;
+
+}
+
+.education-card {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #E50012;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid #0047AB;
+
+}
+
+.education-card:hover {
+    transform: scale(1.05);
+}
+
+.education-card h3 {
+    color: #F7E03B;
+}
+
+.education-card h4 {
+    color: #FFD700;
+}
+
+.education-card p {
+    color: #FFD800;
+}
+
+#work {
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #20B2AA;
+    padding: 100px 40px;
+    margin: 20px 0px;
+
+}
+
+.work-card {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #92000A;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid #0047AB;
+
+}
+
+.work-card:hover {
+    transform: scale(1.05);
+}
+
+.work-card h3 {
+    color: #88FFED;
+}
+
+.work-card li {
+    color: #FFFFFF;
+}
+
+.work-card a {
+    color: #ACE1AF;
+}
+
+
+#contact {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    background-color: #20B2AA;
+    padding: 60px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    color: #FFA000;
+}
+
+
+#contact h2 {
+    text-align: center;
+}
+
+#contact p {
+    text-align: center;
+}
+
+.contact-email {
+    font-size: 1.2em;
+    color: #66FF66;
+}
+
+.input-field {
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #FCE883;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #000099;
+    color: #6696FF;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #2A52BE;
+    color: #FFD800;  
+    padding: 20px; 
+    font-size: 1em;
+}
