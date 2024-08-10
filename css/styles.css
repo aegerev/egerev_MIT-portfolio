@@ -258,6 +258,13 @@ header {
     background-color: #0056b3;
 }
 
+img {
+    padding: inherit;
+    margin:auto;
+    width: 400px;
+    display: block;
+}
+
 footer {
     bottom: 0;
     width: 100%;
