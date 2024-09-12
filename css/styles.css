@@ -2,13 +2,13 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    background-color: #FFD800;
+    background-color: #0000FF;
 }
 
 
 /* Navigation Styles */
 nav {
-    background-color: #FF0000;
+    background-color: #A8A8A8;
     text-align: center;
     position: sticky;
     padding: 25px 0;
@@ -28,7 +28,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #ffffff;
+    color: #5C3317;
     font-weight: bold;
     font-size: 1.2em;
     transition: color 0.3s ease-in-out;
@@ -40,7 +40,7 @@ nav a:hover {
 
 header {
     text-align: center;
-    background-color: #20B2AA;
+    background-color: #4D4DFF;
     color:#FFA000;
     padding: 100px 0px;
 }
@@ -52,14 +52,14 @@ header {
 
 .tagline {
     font-style: italic;
-    color: #008080;
+    color: #7FFF00;
 }
 
 #about {
     text-align: center;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    background-color: #20B2AA;
+    background-color: #4D4DFF;
     padding: 100px 40px;
     margin: 20px 0px;
 }
@@ -67,7 +67,7 @@ header {
 #skills {
     text-align: center;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-    background-color: #2AE8D1;
+    background-color: #4D4DFF;
     color: #4D0F47;
     padding: 100px 40px;
     border-radius: 10px;
@@ -88,7 +88,7 @@ header {
 #skills li {
     display: inline;
     font-weight: bold;
-    color: #228B22;
+    color: #38B0DE;
     margin: 0px 15px;
 }
 
@@ -96,7 +96,7 @@ header {
     text-align: center;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    background-color: #20B2AA;
+    background-color: #4D4DFF;
     padding: 100px 40px;
     margin: 20px 0px;
 
@@ -105,7 +105,7 @@ header {
 .project-card {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
-    background-color: #ACE1AF;
+    background-color: #A8A8A8;
     padding: 25px;
     margin: 20px;
     border-radius: 10px;
@@ -118,11 +118,11 @@ header {
 }
 
 .project-card h3 {
-    color: #DAA520;
+    color: white;
 }
 
 .project-card p {
-    color: #DC143C;
+    color: white;
 }
 
 .project-card .project-link {
@@ -142,7 +142,7 @@ header {
     text-align: center;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    background-color: #20B2AA;
+    background-color: #4D4DFF;
     padding: 100px 40px;
     margin: 20px 0px;
 
@@ -151,7 +151,7 @@ header {
 .education-card {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
-    background-color: #E50012;
+    background-color: #A8A8A8;
     padding: 25px;
     margin: 20px;
     border-radius: 10px;
@@ -164,22 +164,22 @@ header {
 }
 
 .education-card h3 {
-    color: #F7E03B;
+    color: black;
 }
 
 .education-card h4 {
-    color: #FFD700;
+    color: black;
 }
 
 .education-card p {
-    color: #FFD800;
+    color: black;
 }
 
 #work {
     text-align: center;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    background-color: #20B2AA;
+    background-color: #4D4DFF;
     padding: 100px 40px;
     margin: 20px 0px;
 
@@ -188,7 +188,7 @@ header {
 .work-card {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
-    background-color: #92000A;
+    background-color: #A8A8A8;
     padding: 25px;
     margin: 20px;
     border-radius: 10px;
@@ -201,27 +201,21 @@ header {
 }
 
 .work-card h3 {
-    color: #88FFED;
+    color: black;
 }
 
 .work-card li {
-    color: #FFFFFF;
+    color: black;
 }
-
-.work-card a {
-    color: #ACE1AF;
-}
-
 
 #contact {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-    background-color: #20B2AA;
+    background-color: #4D4DFF;
     padding: 60px;
     margin: 20px 0px;
     border-radius: 10px;
-    color: #FFA000;
+    color: white;
 }
-
 
 #contact h2 {
     text-align: center;
@@ -233,7 +227,6 @@ header {
 
 .contact-email {
     font-size: 1.2em;
-    color: #66FF66;
 }
 
 .input-field {
@@ -242,20 +235,6 @@ header {
     margin: 15px 0;
     border: 1px solid #FCE883;
     border-radius: 5px;
-}
-
-.submit-button {
-    background-color: #000099;
-    color: #6696FF;
-    padding: 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-}
-
-.submit-button:hover {
-    background-color: #0056b3;
 }
 
 img {
