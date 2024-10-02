@@ -5,7 +5,7 @@ The UPenn Bootcamp's portfolio was... how to say it... not bad, but also not goo
 
 So, I decided to create another portfolio. A portfolio that showcases EVERYTHING - who I am, my education, my work experiences, my projects. 
 
-All of that is on full display in the MIT portfolio - which is THE portfolio that I am sending  to employers.
+All of that is on full display in the MIT portfolio - which is THE portfolio that I am sending to employers.
 
 ## Sections
 There are a total of 3 sections:
