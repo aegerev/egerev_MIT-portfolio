@@ -35,7 +35,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #FFD800;
+    color: #7093DB;
 }
 
 header {
@@ -67,14 +67,14 @@ header {
 #skills {
     text-align: center;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-    background-color: #4D4DFF;
+    background-color: #9F9F5F;
     color: #4D0F47;
     padding: 100px 40px;
     border-radius: 10px;
 }
 
 #skills h2 {
-    color: #FF0000;
+    color: #238E23;
 
 }
 
@@ -88,7 +88,7 @@ header {
 #skills li {
     display: inline;
     font-weight: bold;
-    color: #38B0DE;
+    color: #000000;
     margin: 0px 15px;
 }
 
@@ -110,7 +110,6 @@ header {
     margin: 20px;
     border-radius: 10px;
     border: 1px solid #0047AB;
-
 }
 
 .project-card:hover {
@@ -136,7 +135,6 @@ header {
 .project-card .project-link:hover {
     text-decoration: underline;
 }
-
 
 #education {
     text-align: center;
@@ -205,7 +203,26 @@ header {
 }
 
 .work-card li {
+    text-align: left;
     color: black;
+}
+
+.programming-card {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #A8A8A8;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid #0047AB;
+}
+
+.programming-card:hover {
+    transform: scale(1.05);
+}
+
+.programming-card h3 {
+    color: white;
 }
 
 #contact {
@@ -229,27 +246,9 @@ header {
     font-size: 1.2em;
 }
 
-.input-field {
-    width: 100%;
-    padding: 15px;
-    margin: 15px 0;
-    border: 1px solid #FCE883;
-    border-radius: 5px;
-}
-
 img {
     padding: inherit;
     margin:auto;
     width: 400px;
     display: block;
-}
-
-footer {
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    background-color: #2A52BE;
-    color: #FFD800;  
-    padding: 20px; 
-    font-size: 1em;
 }
