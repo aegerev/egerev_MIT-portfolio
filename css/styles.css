@@ -1,0 +1,264 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #0000FF;
+}
+
+
+/* Navigation Styles */
+nav {
+    background-color: #A8A8A8;
+    text-align: center;
+    position: sticky;
+    padding: 25px 0;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5C3317;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #7093DB;
+}
+
+header {
+    text-align: center;
+    background-color: #4D4DFF;
+    color:#70DBDB;
+    padding: 100px 0px;
+}
+
+.name{
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    font-style: italic;
+    color: #E6E8FA;
+}
+
+#about {
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #4D4DFF;
+    padding: 100px 40px;
+    margin: 20px 0px;
+}
+
+#skills {
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    background-color: #9F9F5F;
+    color: #4D0F47;
+    padding: 100px 40px;
+    border-radius: 10px;
+}
+
+#skills h2 {
+    color: #238E23;
+
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#skills li {
+    display: inline;
+    font-weight: bold;
+    color: #000000;
+    margin: 0px 15px;
+}
+
+#projects {
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #4D4DFF;
+    padding: 100px 40px;
+    margin: 20px 0px;
+
+}
+
+.project-card {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #A8A8A8;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid #0047AB;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card h3 {
+    color: white;
+}
+
+.project-card p {
+    color: white;
+}
+
+.project-card .project-link {
+    color: #BF0000;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline;
+    margin-top: 15px;
+}
+
+.project-card .project-link:hover {
+    text-decoration: underline;
+}
+
+#education {
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #4D4DFF;
+    padding: 100px 40px;
+    margin: 20px 0px;
+
+}
+
+.education-card {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #A8A8A8;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid #0047AB;
+
+}
+
+.education-card:hover {
+    transform: scale(1.05);
+}
+
+.education-card h3 {
+    color: black;
+}
+
+.education-card h4 {
+    color: black;
+}
+
+.education-card p {
+    color: black;
+}
+
+#work {
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #4D4DFF;
+    padding: 100px 40px;
+    margin: 20px 0px;
+
+}
+
+.work-card {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #A8A8A8;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid #0047AB;
+
+}
+
+.work-card:hover {
+    transform: scale(1.05);
+}
+
+.work-card h3 {
+    color: black;
+}
+
+.work-card li {
+    text-align: left;
+    color: black;
+}
+
+#certifications {
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #4D4DFF;
+    padding: 100px 40px;
+    margin: 20px 0px;
+
+}
+
+.certification-card {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #A8A8A8;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid #0047AB;
+}
+
+.certification-card:hover {
+    transform: scale(1.05);
+}
+
+.certification-card h3 {
+    color: white;
+}
+
+#contact {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    background-color: #4D4DFF;
+    padding: 60px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    color: white;
+}
+
+#contact h2 {
+    text-align: center;
+}
+
+#contact p {
+    text-align: center;
+}
+
+.contact-email {
+    font-size: 1.2em;
+}
+
+img {
+    padding: inherit;
+    margin:auto;
+    width: 400px;
+    display: block;
+}
