@@ -29,6 +29,9 @@ There are a total of 3 sections:
 * "CONTACT ME":
     * This page is simple. It's nothing more than a Contact Me page.
 
+* "VIEW GITHUB":
+    * This page shows you how this website is made by rdirecting you to the site's Github repository.
+
 # Technology Stack
 * HTML
 * CSS
