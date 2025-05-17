@@ -1,1 +1,1 @@
-# django_tutorials
+# django_local_library
