@@ -8,7 +8,7 @@ So, I decided to create another portfolio. A portfolio that showcases EVERYTHING
 All of that is on full display in the MIT portfolio - which is THE portfolio that I am sending to employers.
 
 ## Sections
-There are a total of 3 sections:
+There are a total of 6 sections:
 
 * "HOME":
     * This redirects you to my home page.
