@@ -38,3 +38,6 @@ There are a total of 6 sections:
 
 # Deployed
 Want to see the portfolio for yourselves? You can do so here: https://aegerev.github.io/egerev_MIT-portfolio/
+
+# MAINTENANCE NOTE
+Due to a 'rebranding', several projects may not be available. Even if they are available, they still are in a 'raw format'. **However, please keep in mind that I am updating the projects bit by bit, and all of them will be up and running soon.** Thank you for your attention to this matter. 
