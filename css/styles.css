@@ -64,6 +64,10 @@ header {
     margin: 20px 0px;
 }
 
+ul{
+    display: inline-block;
+}
+
 #skills {
     text-align: center;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
