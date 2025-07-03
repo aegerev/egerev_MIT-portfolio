@@ -23,7 +23,7 @@ There are a total of 6 sections:
 * "EDUCATION":
     * This page showcases my education.
 
-* "PROJECTS":
+* "WORK":
     * This page showcases where I worked and what I did in that work.
 
 * "CONTACT ME":
